@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:local="clr-namespace:VidConf;assembly=VidConf"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="VidConf.ConverencePage">
+	<ContentPage.Content>
+		<StackLayout>
+			<Grid Padding="5">
+				 <Grid.RowDefinitions>
+		                <RowDefinition Height="Auto" />
+		         </Grid.RowDefinitions>
+				<Grid HorizontalOptions="Center" VerticalOptions="Start" BackgroundColor="Aqua">
+			 		<local:VideoCustomView x:Name="gifPlayer" HeightRequest="310" WidthRequest="310" HorizontalOptions="Center" VerticalOptions="Center"/>
+				</Grid>
+			</Grid>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
